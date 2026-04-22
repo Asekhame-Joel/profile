@@ -261,15 +261,18 @@ h6 {
 @media (min-width: 1024px) {
   .navbar__links {
     display: flex;
+
   }
 }
 
 .navbar__links a {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--muted-foreground);
   position: relative;
   transition: color 0.2s;
+  padding: 10px;
+
 }
 
 .navbar__links a::after {
@@ -690,6 +693,7 @@ h6 {
     display: block;
   }
 }
+
 @media (max-width: 768px) {
   .btn-mobile-right {
     margin-left: auto;
