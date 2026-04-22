@@ -690,6 +690,13 @@ h6 {
     display: block;
   }
 }
+@media (max-width: 768px) {
+  .btn-mobile-right {
+    margin-left: auto;
+    display: flex;
+    width: fit-content;
+  }
+}
 
 .hero__location p:first-child {
   font-size: 0.75rem;
