@@ -64,8 +64,10 @@
           <p>Open to freelance projects, full-time roles, and remote opportunities. Let's build something that lasts.
           </p>
         </div>
-        <div class="contact__grid">
-          <div class="contact__list">
+
+        <div class="contact__grid" style="display: flex; justify-content: center;">
+          <div class="contact__list"
+            style="width: 100%; max-width: 520px; display: flex; flex-direction: column; gap: 1rem;">
             <a href="tel:+2348114556256" style="text-decoration:none;">
               <div class="contact__item">
                 <div class="contact__item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -119,28 +121,6 @@
               </div>
             </div>
           </div>
-          <form class="contact__form" data-contact-form>
-            <div class="form-row">
-              <div class="form-field">
-                <label for="name">Full name</label>
-                <input id="name" name="name" type="text" required placeholder="Your name" />
-              </div>
-              <div class="form-field">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required placeholder="you@email.com" />
-              </div>
-            </div>
-            <div class="form-field">
-              <label for="subject">Subject</label>
-              <input id="subject" name="subject" type="text" required placeholder="How can I help?" />
-            </div>
-            <div class="form-field">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required
-                placeholder="Tell me about your project, role, or support need…"></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--lg form-submit">Send Message</button>
-          </form>
         </div>
       </div>
     </section>
@@ -152,11 +132,7 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__grid">
-        <div>
-          <p class="footer__brand">Asekhame Usifo Joel<span class="dot">.</span></p>
-          <p class="footer__bio">Web Developer · IT Support Specialist · Building reliable digital solutions from Benin
-            City, Nigeria.</p>
-        </div>
+
         <div>
           <h4 class="footer__title">Navigate</h4>
           <ul class="footer__links">
